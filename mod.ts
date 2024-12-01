@@ -1,4 +1,4 @@
-import * as sodium from "npm:libsodium-wrappers-sumo@0.7.15";
+import * as sodium from "npm:libsodium-wrappers@0.7.15";
 
 export enum Base64Variants {
   ORIGINAL,
