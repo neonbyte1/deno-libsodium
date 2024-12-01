@@ -1,0 +1,6 @@
+{
+  "name": "@neonbyte/libsodium",
+  "version": "0.7.15",
+  "license": "MIT",
+  "exports": "./mod.ts"
+}
