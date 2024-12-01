@@ -1,6 +1,14 @@
 /**
- * This module closes the gap between the npm package and deno.
  * @module
+ *
+ * This module closes the gap between the npm package and deno.
+ *
+ * @example
+ * ```ts
+ * import { sodium_init } from "jsr:@neonbyte/libsodium";
+ *
+ * await sodium_init();
+ * ```
  */
 import * as sodium from "npm:libsodium-wrappers@0.7.15";
 
