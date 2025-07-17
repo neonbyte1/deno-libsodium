@@ -10,7 +10,7 @@
  * await sodium_init();
  * ```
  */
-import * as sodium from "npm:libsodium-wrappers@0.7.15";
+import * as sodium from "npm:libsodium-wrappers-sumo@0.7.15";
 
 /**
  * Enum for Base64 variants used in encoding/decoding.
