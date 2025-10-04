@@ -17,13 +17,13 @@ import * as sodium from "npm:libsodium-wrappers-sumo@0.7.15";
  */
 export enum Base64Variants {
   /** Standard Base64 with padding. */
-  ORIGINAL,
+  ORIGINAL = 1,
   /** Standard Base64 without padding. */
-  ORIGINAL_NO_PADDING,
+  ORIGINAL_NO_PADDING = 3,
   /** URL-safe Base64 with padding. */
-  URLSAFE,
+  URLSAFE = 5,
   /** URL-safe Base64 without padding. */
-  URLSAFE_NO_PADDING,
+  URLSAFE_NO_PADDING = 7,
 }
 
 /**
